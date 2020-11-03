@@ -21,23 +21,23 @@ from selenium.webdriver.chrome.options import Options
 # Create your views here.
 
 
-GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
-CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument('--no-sandbox')
+chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--no-sandbox")
 
-chrome_options.binary_location = GOOGLE_CHROME_PATH
+
 def index(requests):
 	return render(requests,'autoreplyapp/AutoResponMessages.html')
 
 def autoreplying(requests):
 	print(" Function Called ")
+	browser = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
 
 	# browser = webdriver.Chrome(ChromeDriverManager().install())
 	# browser = webdriver.Chrome('./chromedriver', chrome_options=Options) #Give the full path to chromedriver)
-	browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+
 	browser.get('https://web.whatsapp.com/')
 	time.sleep(7)
 	letsdoit(browser)
@@ -47,6 +47,7 @@ def autoreplying(requests):
 
 def letsdoit(browser):
 	# time.sleep(6)
+
 	#Find the list of all names in the chat section
 	# browser.execute_script("window.scrollTo(0,500);")
 	try:
