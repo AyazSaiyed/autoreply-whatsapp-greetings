@@ -10,7 +10,7 @@ Clone the repository -
 git clone https://github.com/AyazSaiyed/autoreply-whatsapp-greetings.git
 ```
 
-Check if you have downloaded the chromedriver, if not than don't worry, script will handle that process.
+Check if you have downloaded the chromedriver for mac or windows, if not than not to worry, script will handle that process too.
 -----------
 
 1) Go to project directory & run the django server - <b>python3 manage.py runserver</b>
@@ -36,5 +36,5 @@ If you like the code , take a second to endorse me here
 https://www.linkedin.com/in/ayazsaiyadhearthacker/
 
 -------------------------
-If any issues, feel free to connect - https://ayazsaiyed.ml
+If any issues, feel free to connect - https://ayazsaiyed.ml 
 -------------------------
