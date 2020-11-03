@@ -5,7 +5,7 @@ Rid of replying everyone on festival ? But better than ignoring their wishes, th
 
 ------------
 
-Clone the repository - git@github.com:AyazSaiyed/autoreply-whatsapp-greetings.git
+Clone the repository - git clone https://github.com/AyazSaiyed/autoreply-whatsapp-greetings.git
 Check if you have downloaded the chromedriver, if not than don't worry, script will handle that process.
 
 -----------
