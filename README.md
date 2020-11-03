@@ -2,6 +2,7 @@
 
 
 Rid of replying everyone on festival ? But better than ignoring their wishes, wish them automatically !! 💫
+-----------
 This python script will help to automatically reply all your friends and family members with the wish. Just follow this steps, to let it be work.
 
 ------------
@@ -11,6 +12,8 @@ git clone https://github.com/AyazSaiyed/autoreply-whatsapp-greetings.git
 ```
 
 Check if you have downloaded the chromedriver for mac or windows, if not than not to worry, script will handle that process too.
+
+
 -----------
 
 1) Go to project directory & run the django server - <b>python3 manage.py runserver</b>
