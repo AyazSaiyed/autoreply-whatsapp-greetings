@@ -17,7 +17,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
-
+from selenium.webdriver.chrome.options import Options
 # Create your views here.
 
 
@@ -29,7 +29,7 @@ def autoreplying(requests):
 	print(" Function Called ")
 
 	# browser = webdriver.Chrome(ChromeDriverManager().install())
-	browser = webdriver.Chrome('./chromedriver')
+	browser = webdriver.Chrome('./chromedriver', chrome_options=options) #Give the full path to chromedriver)
 
 	browser.get('https://web.whatsapp.com/')
 	time.sleep(7)
