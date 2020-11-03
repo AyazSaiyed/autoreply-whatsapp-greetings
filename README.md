@@ -1,12 +1,12 @@
 # autoreply-whatsapp-greetings
 
 
-```Rid of replying everyone on festival ? But better than ignoring their wishes, this python script will help to automatically reply all your friends and family members with the wish. Just follow this steps, to let it be work.```
+Rid of replying everyone on festival ? But better than ignoring their wishes, this python script will help to automatically reply all your friends and family members with the wish. Just follow this steps, to let it be work.
 
 ------------
 
-Clone the repository - git clone https://github.com/AyazSaiyed/autoreply-whatsapp-greetings.git
-Check if you have downloaded the chromedriver, if not than don't worry, script will handle that process.
+```Clone the repository - git clone https://github.com/AyazSaiyed/autoreply-whatsapp-greetings.git
+Check if you have downloaded the chromedriver, if not than don't worry, script will handle that process.```
 
 -----------
 
