@@ -21,6 +21,8 @@ from selenium.webdriver.chrome.options import Options
 # Create your views here.
 
 
+GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
+CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 
 def index(requests):
 	return render(requests,'autoreplyapp/AutoResponMessages.html')
@@ -29,8 +31,8 @@ def autoreplying(requests):
 	print(" Function Called ")
 
 	# browser = webdriver.Chrome(ChromeDriverManager().install())
-	browser = webdriver.Chrome('./chromedriver', chrome_options=options) #Give the full path to chromedriver)
-
+	# browser = webdriver.Chrome('./chromedriver', chrome_options=Options) #Give the full path to chromedriver)
+	browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
 	browser.get('https://web.whatsapp.com/')
 	time.sleep(7)
 	letsdoit(browser)
