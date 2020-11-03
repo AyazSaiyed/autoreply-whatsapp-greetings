@@ -28,7 +28,7 @@ Hold tight, Script will start replying to the greetings in next 2-3 seconds.
 ![alt text] (https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1604413261/Screen_Shot_2020-11-03_at_7.50.23_PM_dnvhw2.png)
 
 
-  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1604413261/Screen_Shot_2020-11-03_at_7.50.23_PM_dnvhw2.png" width="850" height="400" title="hover text">
+  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1604413261/Screen_Shot_2020-11-03_at_7.50.23_PM_dnvhw2.png" width="850" height="360" title="hover text">
 
 If you like the code , take a second to endorse me here 
 https://www.linkedin.com/in/ayazsaiyadhearthacker/
