@@ -24,6 +24,11 @@ from selenium.webdriver.chrome.options import Options
 GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
 CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--no-sandbox')
+
+chrome_options.binary_location = GOOGLE_CHROME_PATH
 def index(requests):
 	return render(requests,'autoreplyapp/AutoResponMessages.html')
 
@@ -42,7 +47,6 @@ def autoreplying(requests):
 
 def letsdoit(browser):
 	# time.sleep(6)
-
 	#Find the list of all names in the chat section
 	# browser.execute_script("window.scrollTo(0,500);")
 	try:
