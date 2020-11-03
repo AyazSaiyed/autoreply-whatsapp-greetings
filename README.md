@@ -22,7 +22,9 @@ Check if you have downloaded the chromedriver, if not than don't worry, script w
 4) Scan the QR using as fast as possible, with your Whatsapp application using whatsapp web option.
 Once QR is scanned, 
 
-![alt text]  Hold tight, Script will start replying to the greetings in next 2-3 seconds.
+```
+Hold tight, Script will start replying to the greetings in next 2-3 seconds.
+```
 
 ------------
 
