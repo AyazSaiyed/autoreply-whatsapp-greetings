@@ -17,15 +17,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
+
 # Create your views here.
-import platform
-import os
-chrome_options = webdriver.ChromeOptions()
-chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--no-sandbox")
+
 
 
 def index(requests):
@@ -33,18 +27,10 @@ def index(requests):
 
 def autoreplying(requests):
 	print(" Function Called ")
-	browser = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
 
-	# browser = webdriver.Chrome(ChromeDriverManager().install())
-	# browser = webdriver.Chrome('./chromedriver', chrome_options=Options) #Give the full path to chromedriver)
-	# browser = webdriver.Chrome() #Give the full path to chromedriver)
-	# if platform.system() == 'Darwin':
-	# 	print(" Mac System")
-	# 	chrome_default_path = os.getcwd() + '/driver/chromedriver'
-	# else:
-	# 	chrome_default_path = os.getcwd() + '/driver/chromedriver.exe'
-	# browser = webdriver.Chrome(executable_path=chrome_default_path, options=chrome_options)
-	
+	browser = webdriver.Chrome(ChromeDriverManager().install())
+	# browser = webdriver.Chrome('/Users/yudiz/Downloads/chromedriver')
+
 	browser.get('https://web.whatsapp.com/')
 	time.sleep(7)
 	letsdoit(browser)
