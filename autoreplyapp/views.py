@@ -28,8 +28,8 @@ def index(requests):
 def autoreplying(requests):
 	print(" Function Called ")
 
-	browser = webdriver.Chrome(ChromeDriverManager().install())
-	# browser = webdriver.Chrome('/Users/yudiz/Downloads/chromedriver')
+	# browser = webdriver.Chrome(ChromeDriverManager().install())
+	browser = webdriver.Chrome('./chromedriver')
 
 	browser.get('https://web.whatsapp.com/')
 	time.sleep(7)
