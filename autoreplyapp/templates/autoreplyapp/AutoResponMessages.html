@@ -24,6 +24,42 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="static/assets/css/responsive.css">
 
+<style>
+  .title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+
+h1 {
+    /*background-image: url(https://media.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif);*/
+    background-size: cover;
+    color: white;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+/* styling my button */
+
+.white-mode {
+    text-decoration: none;
+    background-color: #122;
+    border-radius: 3px;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    font-family: "Montserrat";
+}
+
+.white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+}
+</style>
+
   </head>
   <body>
 
@@ -36,8 +72,13 @@
     </div>
 
     <!-- Coundown Section Start -->
-    <section class="countdown-timer"><br>
-              <h1 align="center"> Auto Reply #Diwali Greetings  </h1>
+    <section class="countdown-timer" ><br>
+      <div class="title">
+ <h1 style="font-size: 140px;">Auto Reply #Diwali Greetings #2020</h1>
+
+</div>
+
+              <!-- <h1 align="center">   </h1> -->
 
       <div class="container">
         <div class="row justify-content-center">
@@ -48,8 +89,8 @@
             <br><br><br>
             <div class="subscribe-form text-center">
               <form class="form-inline">
-<br><br><br><br><br><br>
-                <button class="btn btn-common btn-round" type="submit">Click to Open Whatsapp & Scan QR 💫</button>
+<br><br><br>
+                <button class="btn btn-common btn-round" type="submit" style="font-size: 30px;">Click to Open Whatsapp & Scan QR </button>
               </form>
             </div>
           </div>
@@ -60,11 +101,11 @@
     <!-- Coundown Section End -->
 
     <!-- Preloader -->
-    <div id="preloader">
+<!--     <div id="preloader">
       <div class="loader" id="loader-1"></div>
 
     </div>
-
+ -->
 
     <!-- End Preloader -->
 
@@ -86,8 +127,8 @@
     <script type="text/javascript">
       $("#example").vegas({
           timer: false,
-          delay: 6000,
-          transitionDuration: 4000,
+          delay: 4000,
+          transitionDuration: 6000,
           transition: "blur",
           slides: [
               { src: "static/assets/img/christian-bowen-nlbvHB8dVOo-unsplash.jpg" }
@@ -98,7 +139,7 @@
 
       <div align="right">
         <br>
-         <button class="btn btn-common btn-round" type=""><b style="font-variant-caps: all-petite-caps;">Developer </b> -<a href="http://linkedin.com/in/ayazsaiyadhearthacker/" target="_blank" style="color: white;"> Ayaz Saiyed </a></button>
+         <button class="btn btn-common btn-round" type="" > 👨🏼‍💻 <a href="http://linkedin.com/in/ayazsaiyadhearthacker/" target="_blank" style="color: white;font-family:Montserrat;font-size: 13px;">  Ayaz Saiyed </a></button>
       </div>
   </body>
 </html>
