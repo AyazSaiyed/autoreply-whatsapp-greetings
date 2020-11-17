@@ -39,6 +39,8 @@ Hold tight, Script will start replying to the greetings in next 2-3 seconds.
 
 
 -------------------------
-If any issues or help needed, feel free to connect - http://theayazsaiyed.ml
-https://www.linkedin.com/in/ayazsaiyadhearthacker/
+If any issues or help needed, feel free to connect - 
 -------------------------
+Website - http://theayazsaiyed.ml
+Linkedin - https://www.linkedin.com/in/ayazsaiyadhearthacker/
+
