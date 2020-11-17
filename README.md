@@ -1,7 +1,7 @@
 # Autoreply-Whatsapp-Greetings #2020
 
 
-Rid of replying everyone on festival ? But better than ignoring their wishes, wish them automatically 🤖
+Too busy to reply a wish to everyone on festival ? But better than ignoring their wishes, wish them automatically 🤖
 -----------
 This python script will help to automatically reply all your friends and family members with the wish. Just follow this steps, to let it be work.
 
