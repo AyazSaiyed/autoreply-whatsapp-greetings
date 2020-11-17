@@ -31,13 +31,14 @@ Hold tight, Script will start replying to the greetings in next 2-3 seconds.
 
 ------------
 
+  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1605590615/autoreply1_l1rhcu.png" width="820" height="390" title="hover text">
+
+  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1605590620/autoreply2_q6mket.png" width="820" height="390" title="hover text">
+ 
 
 
-  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1604414249/Screen_Shot_2020-11-03_at_8.06.15_PM_pyl839.png" width="820" height="390" title="hover text">
-
-If you like the code , take a second to endorse me here 
-https://www.linkedin.com/in/ayazsaiyadhearthacker/
 
 -------------------------
-If any issues or help need, feel free to connect - http://theayazsaiyed.ml
+If any issues or help needed, feel free to connect - http://theayazsaiyed.ml
+https://www.linkedin.com/in/ayazsaiyadhearthacker/
 -------------------------
