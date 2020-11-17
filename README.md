@@ -31,7 +31,7 @@ Hold tight, Script will start replying to the greetings in next 2-3 seconds.
 
 ------------
 
-  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1605590615/autoreply1_l1rhcu.png" width="820" height="390" title="hover text">
+  <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1605590615/autoreply1_l1rhcu.png" width="820" height="400" title="hover text">
 
   <img src="https://res.cloudinary.com/darkworldfacerecognition/image/upload/v1605590620/autoreply2_q6mket.png" width="820" height="390" title="hover text">
  
